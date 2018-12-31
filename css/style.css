@@ -82,6 +82,7 @@ a.inline-link2 {
 .soundcloud {
   float: left;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 #profile {
@@ -92,6 +93,7 @@ a.inline-link2 {
   margin-bottom: 10px;
   width: 280px;
   height: 300px;
+  border-radius: 20px;
 }
 
 #salary {
