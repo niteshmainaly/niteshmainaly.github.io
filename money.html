@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style_money.css">
+    <meta charset="utf-8">
+    <title>UCI Salaries - 2016</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/faculty_grabber.js'></script>
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div class="container" style="padding:50px 50px;">
+      <div class="item1">
+       <form role="form">
+        <div class="form-group">
+          <input type="input" class="form-control input-lg" id="txt-search" placeholder="Search for your professor">
+          <input type="radio" name="search_type" value="name" checked>Name
+          <span class="checkmark"></span>
+          <input type="radio" name="search_type" value="dept">Department
+          <span class="checkmark"></span>
+        </div>
+       </form>
+       <div id="filter-records"></div>
+     </div>
+
+
+    </div>
+  </body>
+</html>

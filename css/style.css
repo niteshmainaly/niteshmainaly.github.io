@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: "Armata";
+}
+
+p {
+  font-family: 'Anonymous Pro';
+  line-height: 22px;
+}
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Anonymous Pro';
+}
+
+.topnav-parent {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.topnav {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #160F29;
+}
+
+.topnav a:hover {
+  color: #00B2CA;
+}
+
+a.active {
+  text-decoration: underline;
+  text-decoration-color: #00B2CA;
+}
+
+a.inline-link {
+  color: black;
+}
+
+a.inline-link2 {
+  color: black;
+  text-decoration: none;
+}
+
+.page-header {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: 'Anonymous Pro';
+  padding-left: 100px;
+}
+
+.p-header {
+  font-size: 18px;
+}
+
+.par-text {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.section-title {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.soundcloud {
+  float: left;
+  margin-right: 20px;
+}
+
+#profile {
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 300px;
+}
+
+#salary {
+  border-width: 2px;
+  border-color: black;
+}
+
+#timeismoney {
+  width: 90%;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-color: black;
+}
+
+#sidetext {
+  padding-right: 80px;
+  padding-left: 80px;
+}

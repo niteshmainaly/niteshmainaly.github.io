@@ -1,0 +1,99 @@
+html, body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+html {
+  background-image: url(../images/dollar.png);
+  background-attachment: fixed;
+}
+
+div #filter-records{
+  margin-bottom: 10px;
+}
+
+input[type=input] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#uci {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#uci td, #uci th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#uci tr:nth-child(odd){background-color: white;}
+
+#uci tr:nth-child(even){background-color: #f2f2f2;}
+
+#uci tr:hover {background-color: #ddd;}
+
+#uci th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#loader {
+   border: 16px solid #f3f3f3; /* Light grey */
+   border-top: 16px solid #3498db; /* Blue */
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+   animation: spin 2s linear infinite;
+   position: fixed;
+   top: 40%;
+   left: 40%;
+   visibility: hidden;
+}
+
+@keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+}
+
+
+.container {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  /*background: rgba(114, 186, 94, 0.05);
+    border: 2px dashed rgba(114, 186, 94, 0.35);*/
+}
+.item1 {
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 213, 70, 0.4);
+  border: 2px dashed rgba(236, 198, 48, 0.5); */
+}
+.item2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(150, 213, 70, 0.4);
+  border: 2px dashed rgba(236, 198, 48, 0.5);
+}
+h5, h2 {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+input {
+  margin-bottom: 20px;
+}
